@@ -1,0 +1,85 @@
+body {
+    background-image: url('./vecteezy_cute-seamless-pattern-with-bakery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Georgia', serif;
+    color: #4b3d26;
+}
+
+header {
+    background-color: #d8cbb7;
+    padding: 20px;
+}
+
+.logo h4 {
+    text-align: center;
+    color: black;
+}
+
+.logo h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4b3d26;
+}
+
+main {
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(255, 227, 194, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.producto {
+    border: 1px solid #4b3d26;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.td1 {
+    width: 150px;
+}
+
+.td2 {
+    width: auto;
+}
+
+.producto img {
+    max-width: 80%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d8cbb7;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+a:active {
+    transform: scale(0.95);
+}
