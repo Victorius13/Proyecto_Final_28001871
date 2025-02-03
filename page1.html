@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas Artículos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/page1.css">
+</head>
+
+<body>
+    <!--Desarrollado Por Victor Jerez email: jerezv313@gmail.com-->
+    <header>
+        <div class="logo">
+            <h1>Panadería Victoria C.A.</h1>
+            <h4>RIF: J-314995820</h4>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Consulta de Otros Artículos</h1>
+        <label for="categoriaSelect">Seleccione categoría:</label>
+        <select id="categoriaSelect">
+            <option value="DEPORTE">DEPORTE</option>
+            <option value="HOGAR">HOGAR</option>
+            <option value="TECNOLOGIA">TECNOLOGIA</option>
+            <option value="COMIDA">COMIDA</option>
+        </select>
+
+        <button onclick="consultarArticulos()">Buscar Artículos</button>
+
+        <div id="resultados">
+            <!-- Aquí se mostrará la tabla o mensajes de error -->
+        </div>
+
+        <br> <br>
+        <div>
+            <button onclick="window.location.href='./index.html'">Pagina Principal</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Panadería Victoria. Todos los derechos reservados.</p>
+        <div id="contenedor">
+            <!-- Aquí se mostrará el resultado de la consulta API 1 -->
+        </div>
+    </footer>
+    <script src="./scripts/api1.js"></script>
+    <script src="./scripts/api2.js"></script>
+</body>
+
+</html>
